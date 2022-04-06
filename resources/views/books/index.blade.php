@@ -53,12 +53,6 @@
                 </div>
             </div>
 
-            @if(session('status'))
-                <div class="alert alert-success">
-                    {{session('status')}}
-                </div>
-            @endif
-
             <table class="table table-bordered table-stripped">
                 <thead>
                     <tr>
